@@ -13,11 +13,11 @@ function merge(arr1, arr2) {
     }
     while (i < arr1.length) {
         merged.push(arr1[i])
-            i ++
+        i ++
     }
     while (j < arr2.length) {
         merged.push(arr2[j])
-            j ++
+        j ++
     }
 
     return merged
